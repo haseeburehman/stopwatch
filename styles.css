@@ -1,0 +1,87 @@
+/* Stylesheet for the Stopwatch */
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f0f4f8;
+    margin: 0;
+}
+
+.container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+p {
+    font-size: 2rem;
+    color: #333;
+    margin: 0 0 20px;
+    font-weight: bold;
+}
+
+button {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin: 5px;
+    transition: background 0.3s, transform 0.3s;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+button:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
+
+#button-start-stop {
+    background: #28a745;
+}
+
+#button-start-stop:hover {
+    background: #218838;
+}
+
+#button-start-stop:active {
+    transform: scale(0.98);
+}
+
+#button-stop {
+    background: #dc3545;
+}
+
+#button-stop:hover {
+    background: #c82333;
+}
+
+#button-stop:active {
+    transform: scale(0.98);
+}
+
+#button-reset {
+    background: #ffc107;
+}
+
+#button-reset:hover {
+    background: #e0a800;
+}
+
+#button-reset:active {
+    transform: scale(0.98);
+}
